@@ -23,6 +23,6 @@ void PrintPrimeNumbers(){
 int main(){
 
     std::cout<<"Hello world\n";
-    PrintPrimeNumbers();
+    PrintPrimeNumbers(); // calling a function 
     return 0;
 }
