@@ -1,5 +1,6 @@
 #include<iostream> // Header file includes input and output functions
 
+// function printing prime numbers from 2 to 10 
 void PrintPrimeNumbers(){
     std::cout<<"Prime numbers are ";
     for(int i=2;i<=10;i++){
