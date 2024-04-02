@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream> // Header file includes input and output functions
 
 void PrintPrimeNumbers(){
     std::cout<<"Prime numbers are ";
