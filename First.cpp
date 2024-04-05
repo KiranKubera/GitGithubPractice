@@ -20,9 +20,27 @@ void PrintPrimeNumbers(){
     cout<<"\n";
 
 }
+class Vehicle{
+    std::string name;
+    int age;
+    public:
+    Vehicle()=delete;
+    Vehicle(std::string name,int age);
+    Vehicle(const Vehicle&)=delete;
+
+    std::string getName() const { return name; }
+
+    int getAge() const { return age; }
+    
+};
+
 int main(){
 
     cout<<"Hello world\n";
     PrintPrimeNumbers(); // calling a function 
+
+    Vehicle obj("KiranSurya",23);
+    std::cout<<"Object name is "<<obj.getName()<<std::endl;
+    std::cout<<"Object age is "<<obj.getAge()<<std::endl;
     return 0;
 }
